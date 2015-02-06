@@ -29,8 +29,8 @@ section code {
 a.button {
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: black;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #0C9848;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -38,7 +38,7 @@ a.button {
 
 a.button:hover, a.button:focus {
   color: white;
-  background-color: #0C9848;
+  background-color: #0C9000;
 }
 
 
@@ -94,8 +94,14 @@ a.menu:hover{
   color: white;
   background-color: #0C9848; 
 }
-
+.colorContainer{
+    position:relative;
+    overflow-x:auto;
+    overflow-y:hidden;
+    white-space: nowrap;
+}
 .colourgreen{
+	display: inline-block;
   background-color: #0C9848;
   display:block;
   width:100px;
@@ -105,6 +111,7 @@ a.menu:hover{
   margin-bottom: 0.4rem;
 }
 .colourwhite{
+display: inline-block;
   background-color: white;
   border: 1px solid;
   display:block;
@@ -114,6 +121,7 @@ a.menu:hover{
   margin-bottom: 0.4rem;
 }
 .colourblack{
+display: inline-block;
   background-color: black;
   color: white;
   display:block;
@@ -122,4 +130,22 @@ a.menu:hover{
   border: 1px solid;
   margin-bottom: 0.4rem;
 }
+
+input.button{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: #0C9848;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  border:none;
+  border-radius:0.2em;
+}
+
+input.button:hover, input.button:focus {
+  color: white;
+  background-color: #0C9000;
+}
+
 
