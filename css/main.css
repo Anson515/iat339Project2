@@ -105,10 +105,8 @@ a.menu:hover{
 	display: inline-block;
   background-color: #0C9848;
   display:block;
-  width:100px;
+  width:102px;
   height: 100px;
-  border: 1px solid;
-
   margin-bottom: 0.4rem;
 }
 .colourwhite{
@@ -116,7 +114,7 @@ display: inline-block;
   background-color: white;
   border: 1px solid;
   display:block;
-  width:100px;
+  width:102px;
   height: 100px;
 
   margin-bottom: 0.4rem;
@@ -126,9 +124,8 @@ display: inline-block;
   background-color: black;
   color: white;
   display:block;
-  width:100px;
+  width:102px;
   height: 100px;
-  border: 1px solid;
   margin-bottom: 0.4rem;
 }
 
@@ -149,4 +146,20 @@ input.button:hover, input.button:focus {
   background-color: #0C9000;
 }
 
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right:20px solid black;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-left:20px solid black;
+
+}
 
