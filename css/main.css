@@ -16,6 +16,7 @@ section h3 {
 section p {
   margin-top: 0;
 }
+
 section code {
   background-color: #EEE;
   padding: 0.5em 0.75em;
@@ -29,8 +30,8 @@ section code {
 a.button {
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: white;
-  background-color: #0C9848;
+  color: black;
+  background-color: #FFFFFF;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -38,7 +39,7 @@ a.button {
 
 a.button:hover, a.button:focus {
   color: white;
-  background-color: #0C9000;
+  background-color: #0C9848;
 }
 
 
