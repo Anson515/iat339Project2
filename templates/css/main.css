@@ -193,3 +193,15 @@ input.button:hover, input.button:focus {
 	color:  #00796b;
 	border-bottom:1px solid #00796b;
 }
+
+select{
+	width: 80%;
+	height: 2rem;
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+select:focus{
+	transition: 0.5s ease-out;
+	box-shadow: 0 0 5px #00796b;
+}
