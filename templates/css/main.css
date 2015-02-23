@@ -1,5 +1,4 @@
 body {
-  font-family: sans-serif;
   padding: 2rem;
   font-family: 'Roboto', sans-serif;
   font-weight: 300;
@@ -10,6 +9,12 @@ body {
 h1, h2{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
 }
 section {
   margin: 1em 0;
@@ -238,6 +243,7 @@ select:focus{
 nav{
   float:right;
   font-size: 1.2em;
+
 }
 
 .heading .indexImage img{
@@ -285,6 +291,34 @@ nav{
   font-size: 2rem;
 }
 
+.about .aboutImage img{
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+  position: relative;
+}
+
+.about .aboutImage h2{
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top:37%;
+  left: 10%;
+  text-align: left;
+  line-height: 200%;
+  font-size: 2rem;
+}
+
+.about .aboutImage p{
+  text-align: left;
+  width: 30%;
+  left: 10%;
+  height: auto;
+  position:absolute;
+  top:50%;
+  line-height: 150%;
+}
+
 .textBox1{
   width: 30%;
   height: 2em;
@@ -294,4 +328,25 @@ nav{
   transition: 0.5s ease-out;
   box-shadow: 0 0 5px #00796b;
 
+}
+
+.contact h2{
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top:75%;
+  left: 10%;
+  text-align: left;
+  line-height: 200%;
+  font-size: 2rem;
+}
+
+.contact p{
+  text-align: left;
+  width: 30%;
+  left: 10%;
+  height: auto;
+  position:absolute;
+  top:85%;
+  line-height: 150%;
 }
