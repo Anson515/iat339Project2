@@ -254,7 +254,7 @@ nav{
 }
 
 .heading .indexImage h2{
-  width: 50%;
+  width: 100%;
   height: auto;
   position:absolute;
   top:50%;
@@ -281,7 +281,7 @@ nav{
 }
 
 .consultation .consultImage h2{
-  width: 50%;
+  width: auto;
   height: auto;
   position:absolute;
   top:40%;
@@ -299,7 +299,7 @@ nav{
 }
 
 .about .aboutImage h2{
-  width: 50%;
+  width: auto;
   height: auto;
   position:absolute;
   top:37%;
@@ -331,7 +331,7 @@ nav{
 }
 
 .contact h2{
-  width: 50%;
+  width: auto;
   height: auto;
   position:absolute;
   top:75%;
@@ -349,4 +349,16 @@ nav{
   position:absolute;
   top:85%;
   line-height: 150%;
+}
+
+.collections{
+  position: relative;
+  display: block;
+  clear: right;
+}
+
+.collections .collection-item img{
+  width: 33.1%;
+  display: relative;
+
 }
