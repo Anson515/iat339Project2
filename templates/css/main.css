@@ -254,13 +254,13 @@ nav{
 }
 
 .heading .indexImage h2{
-  width: 100%;
+  width: 50%;
   height: auto;
   position:absolute;
   top:50%;
   text-align: center;
   line-height: 200%;
-  font-size: 2rem;
+  font-size: ;
 }
 
 .consultation .consultImage img{
@@ -281,7 +281,7 @@ nav{
 }
 
 .consultation .consultImage h2{
-  width: 100%;
+  width: 50%;
   height: auto;
   position:absolute;
   top:40%;
@@ -299,7 +299,7 @@ nav{
 }
 
 .about .aboutImage h2{
-  width: 100%;
+  width: 50%;
   height: auto;
   position:absolute;
   top:37%;
@@ -331,7 +331,7 @@ nav{
 }
 
 .contact h2{
-  width: 100%;
+  width: 50%;
   height: auto;
   position:absolute;
   top:75%;
