@@ -392,7 +392,6 @@ nav{
 
 .collections .collection-item img{
   width: 33.1%;
-<<<<<<< HEAD
   display: relative;
 }
 
@@ -400,7 +399,6 @@ nav{
 	border-top: 1px solid #666;
     position: relative;
     width: 50%;
-	display: inline-block;
 }
 
 a.collection-item img:hover{
