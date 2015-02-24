@@ -1,3 +1,9 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 body {
   padding: 2rem;
   font-family: 'Roboto', sans-serif;
@@ -61,14 +67,32 @@ ul {
   list-style: none;
 }
 
-#image img{
+.image img{
   width: 50%;
   height: auto;
 }
 
-#thumbnail img{
+.thumbnail img{
   width: 25%;
   height: auto;
+}
+
+.oneLine{
+	display: inline-block;
+	white-space: wrap;
+}
+
+@media (max-width: 50em) {
+
+	.thumbnail img{
+		width: 100%;
+	}
+	.oneLine{
+		width: 100%;
+		display: inline;
+		margin-bottom: 2em;
+	}
+
 }
 
 #image img:hover{
@@ -193,6 +217,20 @@ input.button:hover, input.button:focus {
 	text-align: left;
 }
 
+@media (max-width: 50em) {
+
+	.col-5of10 {
+		width: 100%;
+	}
+
+}
+
+.grid:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
 .textBox{
 	width: 80%;
 	height: 2em;
@@ -205,8 +243,9 @@ input.button:hover, input.button:focus {
 }
 
 .colorText{
-	margin: 10em;
+	margin-top: 10em;
 	color: #0C9848;
+	white-space: pre-line;
 }
 
 .colorText:hover{
@@ -226,13 +265,7 @@ select:focus{
 	box-shadow: 0 0 5px #00796b;
 }
 
-.oneLine{
-	clear: left;
-    position:relative;
-	overflow-x:auto;
-    overflow-y:hidden;
-    white-space: nowrawp;
-}
+
 
 .headImage img{
   width: 100%;
@@ -360,5 +393,10 @@ nav{
 .collections .collection-item img{
   width: 33.1%;
   display: relative;
+}
 
+.underlineTotal{
+	border-top: 1px solid #666;
+    position: relative;
+    width: 50%;
 }

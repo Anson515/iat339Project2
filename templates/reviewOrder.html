@@ -27,33 +27,23 @@
 
 	<section>
 		<h2>Review Order</h2>
-		
-		<!-- <div style="oneLine">
-			<a id = "thumbnail" href="#"><img src="img/render1.jpg" alt= "interiror"></a>
-			<h3>A Chair</h3>
-			<p>Quantity<input type="text" name="username" class = "textBox" value=""></p>
-			<a class="button" href="#">Update</a>
-			<a class = "colorText" href = "" style="text-decoration: none">Remove</a>
-			<p>Total : $1100</p>
-		</div> -->
-		<table>
-			<tr>
-				<td><a id = "thumbnail" href="#"><img src="img/render1.jpg" alt= "interiror"></a></td>
-				<td><p>A Chair</p></td>
-				<td><p>Quantity<input type="text" name="username" class = "textBox" value=""></p></td>
-				<td><a class="button" href="#">Update</a></td>
-				<td><a class = "colorText" href = "" style="text-decoration: none">Remove</a></td>
-				<td><p>Total : $1100</p></td>
-			</tr>
-		</table>
+
+		<div>
+			<a class = "thumbnail" href="#"><img src="img/render1.jpg" alt= "interior"></a>
+			<h3 class="oneLine">Chair</h3>
+			<p class="oneLine">Quantity<input type="text" name="username" value=""></p>
+			<a class="oneLine button" href="#">Update</a>
+			<a class = "colorText oneLine" href = "#" style="text-decoration: none">Remove</a>
+			<p class="oneLine">Total : $1100</p>
+		</div>
 	</section>
 
 	<section>
-		<div class = "col-5of10">
+		<div>
 			<p>Subtotal</p>
 			<p>Tax</p>
 			<p>Shipping</p>
-			<p>Total</p>
+			<p class = "underlineTotal">Total</p>
 			
 			<a class="button" href="billing.html">Continue to Checkout</a>
 		</div>
