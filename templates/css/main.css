@@ -307,7 +307,7 @@ select:focus{
 
 
 nav a {
-  width: 100%%;
+  width: 100%;
 }
 
 
@@ -339,7 +339,11 @@ nav a:hover {
 .col-3of10{
   margin-bottom: 10%;
 }
-.col-5of10{
+
+.col-4of10 img{
+  width: 100%;
+}
+.col-5of10 img{
   text-align: left;
 }
 .col-5of10 p{
