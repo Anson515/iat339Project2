@@ -73,27 +73,10 @@ ul {
 }
 
 .thumbnail img{
-  width: 25%;
+  width: 100%;
   height: auto;
 }
 
-.oneLine{
-	display: inline-block;
-	white-space: wrap;
-}
-
-@media (max-width: 50em) {
-
-	.thumbnail img{
-		width: 100%;
-	}
-	.oneLine{
-		width: 100%;
-		display: inline;
-		margin-bottom: 2em;
-	}
-
-}
 
 #image img:hover{
   opacity: 0.4;
@@ -359,6 +342,14 @@ nav a:hover {
 .col-2of10{
   text-align: center;
 }
+
+.col-3of10 img{
+  width: 100%;
+}
+
+.col-3of10{
+  margin-bottom: 10%;
+}
 .col-5of10{
   text-align: left;
 }
@@ -368,6 +359,5 @@ nav a:hover {
 
 .col-5of10 .button{
   float: left;
-
 }
 
