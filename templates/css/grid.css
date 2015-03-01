@@ -60,7 +60,7 @@
 	Using further @media queries, we specify that at a width of
 	less than 30em it should collapse the 2/10 columns into one stack
 */
-@media (max-width: 30em) {
+@media (max-width: 40em) {
 
 	.col-2of10 {
 		width: 100%;

@@ -15,6 +15,7 @@ body {
 h1, h2{
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
+  text-align: left;
 
 }
 
@@ -48,7 +49,6 @@ section code {
 }
 
 a.button {
-  display: inline-block;
   padding: 0.5em 0.75em;
   color: white;
   background-color: #0C9848;
@@ -117,9 +117,6 @@ ul, menu, dir {
 }
 
 
-.navbar li{
-  display:inline-block;
-}
 
 a.menu:hover{
   color: white;
@@ -166,30 +163,6 @@ input.button:hover, input.button:focus {
 	border-left:20px solid black;
 }
 
-.col-5of10{
-	width: 50%;
-}
-
-[class ^='col-']{
-	float: left;
-	padding: 0;
-	text-align: left;
-}
-
-@media (max-width: 50em) {
-
-	.col-5of10 {
-		width: 100%;
-	}
-
-}
-
-.grid:after {
-	content: "";
-	display: block;
-	clear: both;
-}
-
 .textBox{
 	width: 80%;
 	height: 2em;
@@ -205,6 +178,7 @@ input.button:hover, input.button:focus {
 	margin-top: 10em;
 	color: #0C9848;
 	white-space: pre-line;
+  text-decoration: none;
 }
 
 .colorText:hover{
@@ -382,6 +356,12 @@ nav a:hover {
   transition: background-color 0.5s;
 }
 
+.col-5of10 p{
+  text-align: left;
+}
 
+.col-5of10 .button{
+  float: left;
 
+}
 
