@@ -26,6 +26,10 @@
 
 }
 
+.col-5of10-home{
+	width:50%;
+}
+
 .col-2of10 {
 	width: 20%;
 }

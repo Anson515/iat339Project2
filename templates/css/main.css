@@ -354,3 +354,11 @@ nav a:hover {
   float: left;
 }
 
+.col-5of10-home img{
+  width: 100%;
+}
+
+.col-5of10-home h2{
+  margin: 10%;
+}
+
