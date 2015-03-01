@@ -107,7 +107,7 @@ label {
   display: block;
 }
 .navbar{
-  /*margin-left: -4%;*/
+  display: inline-block;
 }
 
 ul, menu, dir {
@@ -146,33 +146,7 @@ a.menu:hover{
     overflow-y:hidden;
     white-space: nowrap;
 }
-.colourgreen{
-	display: inline-block;
-  background-color: #0C9848;
-  display:block;
-  width:102px;
-  height: 100px;
-  margin-bottom: 0.4rem;
-}
-.colourwhite{
-display: inline-block;
-  background-color: white;
-  border: 1px solid;
-  display:block;
-  width:102px;
-  height: 100px;
 
-  margin-bottom: 0.4rem;
-}
-.colourblack{
-display: inline-block;
-  background-color: black;
-  color: white;
-  display:block;
-  width:102px;
-  height: 100px;
-  margin-bottom: 0.4rem;
-}
 
 input.button{
   display: inline-block;
@@ -404,3 +378,24 @@ nav{
 a.collection-item img:hover{
   opacity: 0.5;
 }
+<<<<<<< Updated upstream
+=======
+
+.col-2of10 {
+  width: 100%;
+}
+
+@media (max-width: 300px) {
+
+  .col-2of10 {
+    width: 100%;
+  }
+
+}
+
+.nav{
+  display:inline-block;
+  padding: 2em;
+}
+
+>>>>>>> Stashed changes
