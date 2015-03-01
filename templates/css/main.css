@@ -356,6 +356,12 @@ nav a:hover {
   transition: background-color 0.5s;
 }
 
+.col-2of10{
+  text-align: center;
+}
+.col-5of10{
+  text-align: left;
+}
 .col-5of10 p{
   text-align: left;
 }

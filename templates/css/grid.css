@@ -24,7 +24,6 @@
 [class^='col-'] {
 	float: left;
 	padding: 0; 
-	text-align: center; /* center the content in this block */
 }
 
 
