@@ -106,9 +106,7 @@ ul {
 label {
   display: block;
 }
-.navbar{
-  display: inline-block;
-}
+
 
 ul, menu, dir {
   -webkit-margin-before: 0;
@@ -118,19 +116,6 @@ ul, menu, dir {
   -webkit-padding-start: 0;
 }
 
-.navbar a.menu{
-  text-decoration: none;
-  display: inline-block;
-  padding-left: 1rem;
-  padding-right: 1rem;
-
-  color: black;
-  background-color: #FFFFFF;
-  text-decoration: none;
-  -webkit-transition: background-color 0.5s ease-out;
-  transition: background-color 0.5s ease-out;
-
-}
 
 .navbar li{
   display:inline-block;
@@ -247,11 +232,7 @@ select:focus{
   opacity: 0.7;
 }
 
-nav{
-  float:right;
-  font-size: 1.2em;
 
-}
 
 .heading .indexImage img{
   width: 100%;
@@ -267,7 +248,7 @@ nav{
   top:50%;
   text-align: center;
   line-height: 200%;
-  font-size: ;
+  font-size: 2rem;
 }
 
 .consultation .consultImage img{
@@ -378,24 +359,29 @@ nav{
 a.collection-item img:hover{
   opacity: 0.5;
 }
-<<<<<<< Updated upstream
-=======
 
-.col-2of10 {
-  width: 100%;
+nav a {
+  width: 100%%;
 }
 
-@media (max-width: 300px) {
 
-  .col-2of10 {
-    width: 100%;
-  }
-
+nav a, nav a:visited {
+  display: inline-block;
+  color: black;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
-.nav{
-  display:inline-block;
-  padding: 2em;
+nav a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #0C9848;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
 }
 
->>>>>>> Stashed changes
+
+
+
