@@ -296,16 +296,7 @@ select:focus{
   line-height: 150%;
 }
 
-.collections{
-  position: relative;
-  display: block;
-  clear: right;
-}
 
-.collections .collection-item img{
-  width: 33.1%;
-  display: relative;
-}
 
 .underlineTotal{
 	border-top: 1px solid #666;
@@ -313,9 +304,7 @@ select:focus{
     width: 50%;
 }
 
-a.collection-item img:hover{
-  opacity: 0.5;
-}
+
 
 nav a {
   width: 100%%;
