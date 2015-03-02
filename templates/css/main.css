@@ -361,6 +361,10 @@ nav a:hover {
 }
 
 .col-2of10{
+  width: 100%;
+  text-align: center;
+}
+.col-6of10{
   text-align: center;
 }
 

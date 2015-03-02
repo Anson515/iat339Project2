@@ -52,13 +52,13 @@
 
 }
 
-.col-2of10 {
+.col-6of10 {
 	width: 16.6%;
 }
 
 @media (max-width: 50em) {
 
-	.col-2of10 {
+	.col-6of10 {
 		width: 100%;
 	}
 
@@ -88,6 +88,19 @@
 	}
 
 }
+
+.col-2of10{
+	width: 20%;
+}
+
+@media (max-width: 50em) {
+
+	.col-2of10 {
+		width: 100%;
+	}
+
+}
+
 
 .grid:after {
 	content: "";
