@@ -73,8 +73,7 @@ ul {
 }
 
 .thumbnail img{
-  width: 100%;
-  height: auto;
+  width: 80%;
 }
 
 
@@ -427,9 +426,9 @@ nav a:hover {
 .indexImage p{
 	text-align: center;
 }
-.indexFeatureImage{
-	width: 400px;
-	height: 400px;
+
+.col-3of10 .indexFeatureImage{
+  width: 100%;
 }
 .indexFeatureImage:hover{
 	opacity:0.4;
