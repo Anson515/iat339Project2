@@ -307,7 +307,25 @@ select:focus{
 .textBox1:focus{
   transition: 0.5s ease-out;
   box-shadow: 0 0 5px #00796b;
+}
+.textBox2{
+  width: 30%;
+  height: 5em;
+  display: block;
+  margin-bottom: 2em;
+}
+.textBox2:focus{
+  transition: 0.5s ease-out;
+  box-shadow: 0 0 5px #00796b;
+}
 
+@media (max-width: 50em) {
+	.textBox1  {
+		width: 100%;
+	}
+	.textBox2  {
+		width: 100%;
+	}
 }
 
 .contact h2{
