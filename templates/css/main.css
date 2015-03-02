@@ -277,26 +277,6 @@ select:focus{
 		width: 100%;
 	}
 }
-/* .aboutImage h2{
-   width: 100%;
-  position:absolute;
-  top:37%;
-  left: 10%;
-  text-align: left;
-  font-size: 2rem; 
-}
-
-.aboutImage p{
-  text-align: left;
-  width: 30%;
-  left: 10%;
-  height: auto;
-  position:absolute;
-  top:50%;
-  line-height: 150%;
-} */
-
-
 
 
 .textBox1{
@@ -387,6 +367,7 @@ nav a:hover {
 
 .col-3of10 img{
   width: 100%;
+  height:auto;
 }
 
 .col-3of10{
@@ -398,22 +379,40 @@ nav a:hover {
 }
 .col-5of10 img{
   text-align: left;
+  width:100%;
+}
+
+.col-5of10 h2{
+  margin-left: 5%;
 }
 .col-5of10 p{
   text-align: left;
+  margin-left: 5%;
 }
 
 .col-5of10 .button{
   float: left;
 }
 
-.col-5of10 img{
+.col-5of10-home img{
   width: 100%;
 }
 
 .col-5of10-home h2{
-  margin: 10%;
+  padding-left: 3%;
 }
+
+.col-5of10-home p{
+  padding-left: 3%;
+}
+.col-5of10-about img{
+  width: 100%;
+}
+
+.col-5of10-about h2 p{
+  margin-right: 10%;
+}
+
 
 .indexImage img{
     display: block;
@@ -434,6 +433,10 @@ nav a:hover {
 }
 .indexFeatureImage:hover{
 	opacity:0.4;
+}
+
+#map-canvas{
+  float: right;
 }
 
 

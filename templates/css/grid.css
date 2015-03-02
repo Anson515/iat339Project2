@@ -30,6 +30,28 @@
 	width:50%;
 }
 
+@media (max-width: 50em) {
+
+	.col-5of10-home {
+		width: 100%;
+		margin-left:0;
+	}
+
+}
+
+.col-5of10-about{
+	width:50%;
+}
+
+@media (max-width: 50em) {
+
+	.col-5of10-about {
+		width: 100%;
+		margin-left:0;
+	}
+
+}
+
 .col-2of10 {
 	width: 16.6%;
 }
