@@ -21,7 +21,7 @@ h1, h2{
 
 h3{
   font-family: 'Roboto', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
 }
 section {
   margin: 1em 0;
@@ -236,25 +236,57 @@ select:focus{
   font-size: 2rem;
 }
 
-.about .aboutImage img{
-  width: 100%;
-  height: auto;
-  opacity: 0.4;
-  position: relative;
+.aboutImage {
+	background-image: url(../img/about.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+/*   opacity: 0.4; */
+
 }
 
-.about .aboutImage h2{
-  width: auto;
+.aboutImage h2{
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 10%;
+  top:37%;
+  text-align: left;
+  font-size: 2rem; 
+}
+.aboutImage p{
+  text-align: left;
+   padding-left: 10%;
+  width: 30%;
+  left: 10%;
   height: auto;
+  top:50%;
+  line-height: 150%;
+}
+
+@media (max-width: 70em) {
+	.aboutImage p {
+		width: 100%;
+	}
+	.aboutImage h2 {
+		width: 100%;
+	}
+}
+@media (max-width: 30em) {
+	.aboutImage p {
+		padding-top:3em;
+		width: 100%;
+	}
+}
+/* .aboutImage h2{
+   width: 100%;
   position:absolute;
   top:37%;
   left: 10%;
   text-align: left;
-  line-height: 200%;
-  font-size: 2rem;
+  font-size: 2rem; 
 }
 
-.about .aboutImage p{
+.aboutImage p{
   text-align: left;
   width: 30%;
   left: 10%;
@@ -262,7 +294,10 @@ select:focus{
   position:absolute;
   top:50%;
   line-height: 150%;
-}
+} */
+
+
+
 
 .textBox1{
   width: 30%;
@@ -291,7 +326,7 @@ select:focus{
   width: 30%;
   left: 10%;
   height: auto;
-  position:absolute;
+  position:absolute; 
   top:85%;
   line-height: 150%;
 }
