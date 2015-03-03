@@ -1,0 +1,446 @@
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  padding: 2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  line-height: 150%;
+  -webkit-appearance: none;
+}
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  text-align: left;
+
+}
+
+h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+section {
+  margin: 1em 0;
+  padding: 0.5em 0;
+  border-top: 1px solid #333;
+  clear: both;
+}
+
+section h3 {
+  margin-bottom: 0;
+}
+section p {
+  margin-top: 0;
+}
+
+section code {
+  background-color: #EEE;
+  padding: 0.5em 0.75em;
+}
+
+#logo img{
+  width: 30%;
+  height: auto;
+  clear: left;
+}
+
+a.button {
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: #0C9848;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+}
+
+a.button:hover, a.button:focus {
+  color: white;
+  background-color: #00796b; /*teal*/
+}
+
+
+ul {
+  list-style: none;
+}
+
+.image img{
+  width: 50%;
+  height: auto;
+}
+
+.thumbnail img{
+  width: 80%;
+}
+
+
+#image img:hover{
+  opacity: 0.4;
+}
+
+.input-wrapper {
+  margin: 0 0 1em 0; 
+}
+
+label {
+  display: block;
+}
+
+
+ul, menu, dir {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 0;
+}
+
+
+
+a.menu:hover{
+  color: white;
+  background-color: #0C9848; 
+}
+.colorContainer{
+    position:relative;
+    overflow-x:auto;
+    overflow-y:hidden;
+    white-space: nowrap;
+}
+
+
+input.button{
+  display: inline-block;
+  padding: 0.5em 0.75em;
+  color: white;
+  background-color: #0C9848;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+  border:none;
+  border-radius:0.2em;
+}
+
+input.button:hover, input.button:focus {
+  color: white;
+  background-color: #0C9000;
+}
+
+.arrow-left {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-right:20px solid black;
+}
+
+.arrow-right {
+	width: 0; 
+	height: 0; 
+	border-top: 20px solid transparent;
+	border-bottom: 20px solid transparent; 
+	border-left:20px solid black;
+}
+
+.textBox{
+	width: 80%;
+	height: 2em;
+}
+
+.textBox:focus{
+	transition: 0.5s ease-out;
+	box-shadow: 0 0 5px #00796b;
+
+}
+
+.colorText{
+	margin-top: 10em;
+	color: #0C9848;
+	white-space: pre-line;
+  text-decoration: none;
+}
+
+.colorText:hover{
+	color:  #00796b;
+	border-bottom:1px solid #00796b;
+}
+
+select{
+	width: 80%;
+	height: 2rem;
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+
+select:focus{
+	transition: 0.5s ease-out;
+	box-shadow: 0 0 5px #00796b;
+}
+
+
+
+.headImage img{
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
+}
+
+
+
+.heading .indexImage img{
+  width: 100%;
+  height: auto;
+  opacity: 0.6;
+  position: relative;
+}
+
+.heading .indexImage h2{
+  width: 100%;
+  height: auto;
+  position:absolute;
+  top:50%;
+  text-align: center;
+  line-height: 200%;
+  font-size: 2rem;
+}
+
+.consultation .consultImage img{
+  width: 100%;
+  height: auto;
+  opacity: 0.4;
+  position: relative;
+}
+
+.consultation .consultImage p{
+  text-align: left;
+  width: 20%;
+  left: 75%;
+  height: auto;
+  position:absolute;
+  top:50%;
+  line-height: 150%;
+}
+
+.consultation .consultImage h2{
+  width: auto;
+  height: auto;
+  position:absolute;
+  top:40%;
+  left: 75%;
+  text-align: left;
+  line-height: 200%;
+  font-size: 2rem;
+}
+
+.aboutImage {
+	background-image: url(../img/about.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 1000px;
+/*   opacity: 0.4; */
+
+}
+
+.aboutImage h2{
+  width: 100%;
+  padding-top: 10%;
+  padding-left: 10%;
+  top:37%;
+  text-align: left;
+  font-size: 2rem; 
+}
+.aboutImage p{
+  text-align: left;
+   padding-left: 10%;
+  width: 30%;
+  left: 10%;
+  height: auto;
+  top:50%;
+  line-height: 150%;
+}
+
+@media (max-width: 70em) {
+	.aboutImage p {
+		width: 100%;
+	}
+	.aboutImage h2 {
+		width: 100%;
+	}
+}
+@media (max-width: 30em) {
+	.aboutImage p {
+		padding-top:3em;
+		width: 100%;
+	}
+}
+
+
+.textBox1{
+  width: 30%;
+  height: 2em;
+}
+
+.textBox1:focus{
+  transition: 0.5s ease-out;
+  box-shadow: 0 0 5px #00796b;
+}
+.textBox2{
+  width: 30%;
+  height: 5em;
+  display: block;
+  margin-bottom: 2em;
+}
+.textBox2:focus{
+  transition: 0.5s ease-out;
+  box-shadow: 0 0 5px #00796b;
+}
+
+@media (max-width: 50em) {
+	.textBox1  {
+		width: 100%;
+	}
+	.textBox2  {
+		width: 100%;
+	}
+}
+
+.contact h2{
+  width: auto;
+  height: auto;
+  position:absolute;
+  top:75%;
+  left: 10%;
+  text-align: left;
+  line-height: 200%;
+  font-size: 2rem;
+}
+
+.contact p{
+  text-align: left;
+  width: 30%;
+  left: 10%;
+  height: auto;
+  position:absolute; 
+  top:85%;
+  line-height: 150%;
+}
+
+
+
+.underlineTotal{
+	border-top: 1px solid #666;
+    position: relative;
+    width: 50%;
+}
+
+
+
+nav a {
+  width: 100%;
+}
+
+
+nav a, nav a:visited {
+  display: inline-block;
+  color: black;
+  padding: 1em 1.25em;
+  text-decoration: none;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+nav a:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #0C9848;
+  -webkit-transition: background-color 0.5s;
+  transition: background-color 0.5s;
+}
+
+.col-2of10{
+  width: 100%;
+  text-align: center;
+}
+.col-6of10{
+  text-align: center;
+}
+
+.col-3of10 img{
+  width: 100%;
+  height:auto;
+}
+
+.col-3of10{
+  margin-bottom: 10%;
+}
+
+.col-4of10 img{
+  width: 100%;
+}
+.col-5of10 img{
+  text-align: left;
+  width:100%;
+}
+
+.col-5of10 h2{
+  margin-left: 5%;
+}
+.col-5of10 p{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.col-5of10 .button{
+  float: left;
+}
+
+.col-5of10-home img{
+  width: 100%;
+}
+
+.col-5of10-home h2{
+  padding-left: 3%;
+}
+
+.col-5of10-home p{
+  padding-left: 3%;
+}
+.col-5of10-about img{
+  width: 100%;
+}
+
+.col-5of10-about h2 p{
+  margin-right: 10%;
+}
+
+
+.indexImage img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+	width: 50%;
+}
+.indexImage h2{
+	text-align: center;
+	/* font-size: 1.5em; */
+}
+.indexImage p{
+	text-align: center;
+}
+
+.col-3of10 .indexFeatureImage{
+  width: 100%;
+}
+.indexFeatureImage:hover{
+	opacity:0.4;
+}
+
+#map-canvas{
+  float: right;
+}
+
+
+

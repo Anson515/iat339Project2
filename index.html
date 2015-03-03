@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="utf-8">
+    <title>The Terrace: Style Guide</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <div id = "logo">
+       <img src="img/logo.png" alt="logo">
+    </div>
+
+    <nav>
+      <ul class = "navbar">
+        <li><a href="#buttons" class= "menu">Buttons Elements</a></li>
+        <li><a href="#colours" class= "menu">Colours Elements</a></li>
+        <li><a href="#forms" class= "menu">Forms Element</a></li>
+        <li><a href="#textual" class= "menu">Textutal Elements</a></li>
+        <li><a href="#image" class= "menu">Image Element</a></li>
+        <li><a href="#key" class= "menu">Key Groupings of Element</a></li>
+      </ul>
+    </nav>
+    <!-- Try to ensure that each element has its own portion of the page -->
+    <section id="buttons">
+      <h2>Button Elements</h2>
+      <h3>CSS Selector:</h3>
+      <p>'a.button'</p>
+      <h3>Sample code:</h3>
+      <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+      <h3>Rendered element:</h3>
+      <a class="button" href="#">Default Button</a>
+	  
+	  		<div class="arrow-left"></div>
+		<div class="arrow-right"></div>
+    </section>
+
+    <section id = "colours">
+      <h2>Colour Element</h2>
+	  <div class = colorContainer>
+        <div class = "colourgreen">
+          <p>HEX: #0C9848</p>
+        </div>
+        <div class = "colourwhite">
+          <p>HEX: #FFFFFF</p>
+        </div>
+        <div class = "colourblack">
+          <p>HEX: #000000</p>
+        </div>
+		</div>
+ 
+    </section>  
+    
+    <section id="forms">
+
+      <h2>Form Elements</h2>
+      <h3>CSS Selector:</h3>
+      <p>'.input-wrapper', 'label'</p>
+
+      <h3>Sample Code</h3>
+        <code>
+          &lt;div class="input-wrapper"&gt;
+            &lt;label for="form-name">Name:&lt;/label&gt;
+            &lt;input type="text" id="form-name" placeholder="Jane Doe"&gt;
+          &lt;/div&gt;
+        </code>
+
+      <h3>Rendered Elements</h3>
+      <form method="post" action="#">
+
+      <div class="input-wrapper">
+        <label for="form-name">Name:</label>
+        <input type="text" id="form-name" placeholder="Jane Doe">
+      </div>
+
+      <div class="input-wrapper">
+        <label for="form-subject">Subject:</label>
+        <input type="text" id="form-subject" placeholder="A title for your comment">
+      </div>
+
+        <div class="input-wrapper">
+          <label for="form-comment">Comment:</label>
+          <textarea id="form-comment" placeholder="Please place comment here"></textarea>
+        </div>
+
+         <a class="button" href="#">Submit</a>
+      </form>
+
+    </section>
+
+
+    <section id= 'textual'>
+      <h2>Textual Element</h2>
+
+      <h3>Adjustment:</h3>
+      <p>Line Height: 150% ;</p>
+
+      <h3>CSS Selector:</h3>
+      <p>'body'</p>
+
+      <h3>Sample Code:</h3>
+      <code>font-family: 'Roboto', sans-serif;</code>
+
+
+      <h3>Rendered Element:</h3>
+      <p>Roboto-Light is the dafault font of the website. We chose Roboto-Light for the dafult font is because Roboto-Light is a lightweight font. It helps to reduce the
+        overall weight of the webpage since some parts of the websites are heavy weighted. In additon to that, it gives a simple, modern feel to the website.</p>    
+
+    </section>
+	
+
+    <section id = 'image'>
+      <h2>Image Element</h2>
+
+      <h3>CSS selector:</h3>
+      <p>'#image img', '#image img:hover'</p>
+
+      <h3>Sample Code</h3>
+      <code> &lt;a href="#"&gt;&lt;img src="img/render1.jpg" alt= "interiror"&gt;&lt;/a&gt; </code>
+
+      <h3>Rendered Element:</h3>
+   
+       <a href="#"><img src="img/render1.jpg" alt= "interiror"></a> 
+      
+    </section>
+
+    <section id='key'>
+      <h2>Key Grouping Elements</h2>
+
+      <h3>CSS Selector</h3>
+      <p>'ul'</p>
+
+      <h3>Sample Code</h3>
+      <code>
+        &lt;ul&gt;
+        &lt;li&gt; Portfolio &lt;/li&gt;
+        &lt;li&gt;Interior Design&lt;/li&gt;
+        &lt;li&gt;Chairs&lt;/li&gt;
+        &lt;li&gt;Tables&lt;/li&gt;
+        &lt;li&gt;About Us&lt;/li&gt;    
+        &lt;/ul&gt;
+      </code>
+
+      <h3>Render Element</h3>
+
+      <ul class = "navbar">
+        <li><a href="#" class = "menu">Portfolio</a></li>
+        <li><a href="#" class = "menu">Interior Design</a></li>
+        <li><a href="#" class = "menu">Chairs</a></li>
+        <li><a href="#" class = "menu">Tables</a></li>
+        <li><a href="#" class = "menu">About Us</a></li>     
+      </ul>
+
+
+    </section>
+  </body>
+</html>
