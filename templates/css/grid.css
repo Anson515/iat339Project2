@@ -101,6 +101,19 @@
 
 }
 
+.col-1of10{
+	width: 100%;
+}
+
+@media (max-width: 50em) {
+
+	.col-1of10-home {
+		width: 100%;
+		margin-left: 0;
+	}
+
+}
+
 
 .grid:after {
 	content: "";

@@ -445,16 +445,23 @@ nav a:hover {
   float: right;
 }
 
-.ham{
-  position: absolute;
-  left: 20%;
-  top: 20%;
-  width: 1.5em;
-  height: 0.2em;
-  background: black;
-  box-shadow: 
-    0 0.5em 0 0 black,
-    0 1em 0 0 black;
+
+.col-1of10-home{
+  background-image: url("../img/homeImage.jpg"); 
+  height: 500px;
+
+}
+
+.col-1of10-home .col-3of10 h2{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
+}
+
+.col-1of10-home .col-3of10 p{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 10%;
 }
 
 
