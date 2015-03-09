@@ -37,17 +37,6 @@ section p {
   margin-top: 0;
 }
 
-section code {
-  background-color: #EEE;
-  padding: 0.5em 0.75em;
-}
-
-#logo img{
-  width: 30%;
-  height: auto;
-  clear: left;
-}
-
 a.button {
   padding: 0.5em 0.75em;
   color: white;
@@ -86,11 +75,6 @@ ul {
   margin: 0 0 1em 0; 
 }
 
-label {
-  display: block;
-}
-
-
 ul, menu, dir {
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
@@ -98,7 +82,6 @@ ul, menu, dir {
   -webkit-margin-end: 0;
   -webkit-padding-start: 0;
 }
-
 
 
 a.menu:hover{
@@ -111,7 +94,6 @@ a.menu:hover{
   overflow-y:hidden;
   white-space: nowrap;
 }
-
 
 input.button{
   display: inline-block;
@@ -128,22 +110,6 @@ input.button{
 input.button:hover, input.button:focus {
   color: white;
   background-color: #0C9000;
-}
-
-.arrow-left {
-	width: 0; 
-	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent; 
-	border-right:20px solid black;
-}
-
-.arrow-right {
-	width: 0; 
-	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent; 
-	border-left:20px solid black;
 }
 
 .textBox{
