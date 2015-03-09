@@ -30,8 +30,8 @@ section code {
 a.button {
   display: inline-block;
   padding: 0.5em 0.75em;
-  color: black;
-  background-color: #FFFFFF;
+  color: white;
+  background-color: #0C9848;
   text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
@@ -39,7 +39,7 @@ a.button {
 
 a.button:hover, a.button:focus {
   color: white;
-  background-color: #0C9848;
+  background-color: #00796b;
 }
 
 
@@ -54,6 +54,9 @@ ul {
 
 #image img:hover{
   opacity: 0.4;
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
+
 }
 
 .input-wrapper {
@@ -75,14 +78,12 @@ ul, menu, dir {
   -webkit-padding-start: 0;
 }
 .navbar a.menu{
-  text-decoration: none;
   display: inline-block;
   padding-left: 1rem;
   padding-right: 1rem;
 
-  color: black;
+  color: #0C9848;
   background-color: #FFFFFF;
-  text-decoration: none;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 }
@@ -94,6 +95,7 @@ ul, menu, dir {
 a.menu:hover{
   color: white;
   background-color: #0C9848; 
+  text-decoration: none;
 }
 .colorContainer{
     position:relative;
@@ -129,6 +131,15 @@ display: inline-block;
   margin-bottom: 0.4rem;
 }
 
+.colourteal{
+display: inline-block;
+  background-color: #00796b;
+  color: white;
+  display:block;
+  width:102px;
+  height: 100px;
+  margin-bottom: 0.4rem;
+}
 input.button{
   display: inline-block;
   padding: 0.5em 0.75em;
@@ -144,22 +155,5 @@ input.button{
 input.button:hover, input.button:focus {
   color: white;
   background-color: #0C9000;
-}
-
-.arrow-left {
-	width: 0; 
-	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent; 
-	border-right:20px solid black;
-}
-
-.arrow-right {
-	width: 0; 
-	height: 0; 
-	border-top: 20px solid transparent;
-	border-bottom: 20px solid transparent; 
-	border-left:20px solid black;
-
 }
 
