@@ -305,6 +305,7 @@ nav a:hover {
 
 .col-3of10 .indexFeatureImage{
   width: 100%;
+  height: 300px;
   -webkit-transition: opacity 0.5s ease-out;
   transition: opacity 0.5s ease-out;
 }
