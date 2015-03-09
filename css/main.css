@@ -29,6 +29,7 @@ section code {
 
 a.button {
   display: inline-block;
+  text-decoration:none;
   padding: 0.5em 0.75em;
   color: white;
   background-color: #0C9848;
@@ -79,6 +80,7 @@ ul, menu, dir {
 }
 .navbar a.menu{
   display: inline-block;
+  text-decoration: none;
   padding-left: 1rem;
   padding-right: 1rem;
 
@@ -157,3 +159,13 @@ input.button:hover, input.button:focus {
   background-color: #0C9000;
 }
 
+.textBox{
+	width: 50%;
+	height: 2em;
+}
+
+.textBox:focus{
+	transition: 0.5s ease-out;
+	box-shadow: 0 0 5px #00796b;
+
+}
