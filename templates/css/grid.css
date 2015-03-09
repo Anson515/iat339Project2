@@ -77,6 +77,20 @@
 
 }
 
+.col-3of10-footer{
+	width:33.3%;
+}
+
+
+@media (max-width: 50em) {
+
+	.col-3of10-footer {
+		width: 100%;
+		margin-top: 0;
+	}
+
+}
+
 .col-4of10{
 	width: 25%;
 }
