@@ -79,6 +79,7 @@ ul {
 
 #image img:hover{
   opacity: 0.4;
+
 }
 
 .input-wrapper {
@@ -105,10 +106,10 @@ a.menu:hover{
   background-color: #0C9848; 
 }
 .colorContainer{
-    position:relative;
-    overflow-x:auto;
-    overflow-y:hidden;
-    white-space: nowrap;
+  position:relative;
+  overflow-x:auto;
+  overflow-y:hidden;
+  white-space: nowrap;
 }
 
 
@@ -181,103 +182,6 @@ select:focus{
 }
 
 
-
-.headImage img{
-  width: 100%;
-  height: auto;
-  opacity: 0.7;
-}
-
-
-
-.heading .indexImage img{
-  width: 100%;
-  height: auto;
-  opacity: 0.6;
-  position: relative;
-}
-
-.heading .indexImage h2{
-  width: 100%;
-  height: auto;
-  position:absolute;
-  top:50%;
-  text-align: center;
-  line-height: 200%;
-  font-size: 2rem;
-}
-
-.consultation .consultImage img{
-  width: 100%;
-  height: auto;
-  opacity: 0.4;
-  position: relative;
-}
-
-.consultation .consultImage p{
-  text-align: left;
-  width: 20%;
-  left: 75%;
-  height: auto;
-  position:absolute;
-  top:50%;
-  line-height: 150%;
-}
-
-.consultation .consultImage h2{
-  width: auto;
-  height: auto;
-  position:absolute;
-  top:40%;
-  left: 75%;
-  text-align: left;
-  line-height: 200%;
-  font-size: 2rem;
-}
-
-.aboutImage {
-	background-image: url(../img/about.jpg);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	height: 1000px;
-/*   opacity: 0.4; */
-
-}
-
-.aboutImage h2{
-  width: 100%;
-  padding-top: 10%;
-  padding-left: 10%;
-  top:37%;
-  text-align: left;
-  font-size: 2rem; 
-}
-.aboutImage p{
-  text-align: left;
-   padding-left: 10%;
-  width: 30%;
-  left: 10%;
-  height: auto;
-  top:50%;
-  line-height: 150%;
-}
-
-@media (max-width: 70em) {
-	.aboutImage p {
-		width: 100%;
-	}
-	.aboutImage h2 {
-		width: 100%;
-	}
-}
-@media (max-width: 30em) {
-	.aboutImage p {
-		padding-top:3em;
-		width: 100%;
-	}
-}
-
-
 .textBox1{
   width: 30%;
   height: 2em;
@@ -307,33 +211,13 @@ select:focus{
 	}
 }
 
-.contact h2{
-  width: auto;
-  height: auto;
-  position:absolute;
-  top:75%;
-  left: 10%;
-  text-align: left;
-  line-height: 200%;
-  font-size: 2rem;
-}
-
-.contact p{
-  text-align: left;
-  width: 30%;
-  left: 10%;
-  height: auto;
-  position:absolute; 
-  top:85%;
-  line-height: 150%;
-}
 
 
 
 .underlineTotal{
 	border-top: 1px solid #666;
-    position: relative;
-    width: 50%;
+  position: relative;
+  width: 50%;
 }
 
 
@@ -345,9 +229,8 @@ nav a {
 
 nav a, nav a:visited {
   display: inline-block;
-  color: black;
+  color:  #0C9848;
   padding: 1em 1.25em;
-  text-decoration: none;
   -webkit-transition: background-color 0.5s;
   transition: background-color 0.5s;
 }
@@ -420,22 +303,10 @@ nav a:hover {
 }
 
 
-.indexImage img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-	width: 50%;
-}
-.indexImage h2{
-	text-align: center;
-	/* font-size: 1.5em; */
-}
-.indexImage p{
-	text-align: center;
-}
-
 .col-3of10 .indexFeatureImage{
   width: 100%;
+  -webkit-transition: opacity 0.5s ease-out;
+  transition: opacity 0.5s ease-out;
 }
 .indexFeatureImage:hover{
 	opacity:0.4;
@@ -451,6 +322,8 @@ nav a:hover {
   height: 500px;
 }
 
+
+
 .col-1of10-home .col-3of10 h2{
   margin-left: 10%;
   margin-right: 10%;
@@ -463,5 +336,36 @@ nav a:hover {
   margin-top: 10%;
 }
 
+.col-1of10-consult{
+  background-image: url("../img/consultImage.jpg"); 
+  height: 750px;
+}
 
+.col-1of10-consult .col-3of10 h2{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20%;
+}
+
+.col-1of10-consult .col-3of10 p{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20%;
+}
+
+.col-1of10-about{
+  background-image: url("../img/about.jpg"); 
+  height: 1000px;
+}
+
+.col-1of10-about .col-3of10 h2{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20%;
+}
+
+.col-1of10-about .col-3of10 p{
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
